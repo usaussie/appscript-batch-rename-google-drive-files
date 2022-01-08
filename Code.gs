@@ -51,7 +51,7 @@ function job_delete_token_and_reset_run_history() {
 * This is the one to run on a schedule (or ad-hoc) and takes care of everything.
 *
 */
-function job_lookup_all_google_drive_files_using_continuation_tokens() {
+function job_find_and_rename_files() {
   
   Logger.log('starting lookup'); 
   
